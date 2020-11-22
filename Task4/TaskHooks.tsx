@@ -7,7 +7,7 @@ import React, { FunctionComponent, useState } from 'react';
 //     buttonColor: "red" | "blue" | "green"
 // }
 
-const Task4Component = props => {
+const Task4Component: FunctionComponent = props => {
     const [buttonColor, setButtonColor] = useState<"red" | "blue" | "green">('red');
     const [lastClicked, setLastClicked] = useState<Date | null>(null);
 

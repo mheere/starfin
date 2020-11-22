@@ -14,11 +14,11 @@
 .cell-main {
     padding-left: 12px;
 }
-.ticker {
+.cell-main .ticker {
     font-size: 18px;
     margin-bottom: 4px;
 }
-.data {
+.cell-main .data {
     color: #67C4A3;
     font-weight: bolder;
 }
@@ -43,24 +43,25 @@
     box-shadow: 0px 0px 8px 4px #888888;
 }
 
-.push {
+.cell.push {
     margin-left: auto;
 }
-.direction {
+.cell .direction {
     font-size: 11px;
     padding: 4px 0 3px 0;
 }
-.price {
+.cell .price {
     font-size: 16px;
     font-weight: bold;
 }
 
-.triple-dot:after {
+.row .triple-dot:after {
   content: '\2807';
   font-size: 26px;
   padding-left: 6px;
 }
 
-.triple-dot:hover {
-    background: e8e7e7;
+.row .triple-dot:hover {
+    background-color: #e8e7e7;
+    border-radius: 8px;
 }
