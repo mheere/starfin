@@ -10,12 +10,21 @@ interface Item {
   name: string
 }
 
-function convertToDate(datum?: Date): string {
-  if (!datum) return "nodate";
-  return `${datum.getDate()}-${datum.getMonth()}-${datum.getFullYear()}`;
+interface GroupResult {
+  items: GroupResultItems[]
 }
 
-function groupByDate(items: Item[]) {
+interface GroupResultItems {
+  items: Item[]
+}
+
+function convertToDate(datum?: Date): string {
+  if (!datum) return "nodate";
+  return `${datum.getFullYear()}-${datum.getMonth()}-${datum.getDate()}`;
+}
+
+function groupByDate(items: Item[]): any {
+
   return items.reduce((acc: any, item: Item) => {
 
     // get a date only string (so we can group on it)
@@ -42,7 +51,7 @@ export const test1 = () => {
   items.push({ id: 4, dateAndTime: null, name: 'option 4' });
   items.push({ id: 5, dateAndTime: new Date(1995, 11, 18), name: 'option 5' });
   items.push({ id: 6, dateAndTime: new Date(1995, 11, 18), name: 'option 6' });
-  const res = groupByDate(items);
+  const res: GroupResult = groupByDate(items);
 
   console.log("Answer Task1:", res);
   //debugger;
