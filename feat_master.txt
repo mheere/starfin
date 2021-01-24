@@ -1,1 +1,2 @@
 master change
+Wow - don't do a 'reset' to local branch too easiliy!
