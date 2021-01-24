@@ -1,3 +1,5 @@
 master change
-
 I have just created this 'macbook' branch
+Another change in the same file on feat_a branch
+More changes in this same file (and this bit is from within the merging tool!)
+And also another line (whilst editing, why not?)
