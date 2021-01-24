@@ -5,3 +5,6 @@ More changes in this same file (and this bit is from within the merging tool!)
 And also another line (whilst editing, why not?)
 Now done manually - sort of...
 This is the macbook branch agin (deliberate mistake)
+// ------------
+Wow - don't do a 'reset' to local branch too easiliy!
+Interesting - let do with a push
