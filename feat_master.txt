@@ -1,1 +1,11 @@
 master change
+I have just created this 'macbook' branch
+Another change in the same file on feat_a branch
+More changes in this same file (and this bit is from within the merging tool!)
+And also another line (whilst editing, why not?)
+Now done manually - sort of...
+This is the macbook branch agin (deliberate mistake)
+On MacBook branch again (from stash)
+// -----
+Step 5 - Not sure what happened 
+Step 6 - feat_a next step
